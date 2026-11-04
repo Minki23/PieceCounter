@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="plate_photos"
+        path="plate_photos/" />
+    <cache-path
+        name="temp_photos"
+        path="." />
+</paths>

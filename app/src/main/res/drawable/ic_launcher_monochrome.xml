@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Build plate outline -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,24L79,24A5,5 0,0 1,84 29L84,77A5,5 0,0 1,79 82L63,82L61,85L47,85L45,82L29,82A5,5 0,0 1,24 77L24,29A5,5 0,0 1,29 24Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- 4 detected part bounding boxes -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M32,32h18v18h-18zM58,32h18v18h-18zM32,57h18v18h-18z"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFFFFF" />
+
+    <group
+        android:pivotX="67"
+        android:pivotY="66"
+        android:rotation="-18">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M58,57h18v18h-18z"
+            android:strokeWidth="2.2"
+            android:strokeColor="#FFFFFF" />
+    </group>
+
+    <!-- Inner 3D-printed hex parts -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M41,36L46,39L46,43L41,46L36,43L36,39ZM67,36L72,39L72,43L67,46L62,43L62,39ZM41,61L46,64L46,68L41,71L36,68L36,64Z" />
+</vector>
